@@ -6,22 +6,32 @@ body {
     background-position: center center;
   }
 
-#container{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 250px;
     justify-content:space-evenly;
 }
+.caja1:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);  
+}
+.caja2:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);  
+}
 
-#caja1{
+.caja1{
     background-color: aliceblue;
     width: 350px;
     height: 250px;
     border-radius: 5%;
     box-shadow: 2px 4px 15px 0;
 }
-#caja2{
+.caja2{
     background-color: aliceblue;
     width: 350px;
     height: 250px;
